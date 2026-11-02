@@ -26,8 +26,8 @@ rootProject.name = "LanguageLearn"
 
 include(":core")
 
-// `-PcoreOnly` builds only the pure-Kotlin module. Useful on machines
-// without the Android SDK (the algorithms and content tests live in :core).
+// `-PcoreOnly` leaves out :app so the algorithms and content tests in :core
+// run on machines without the Android SDK.
 if (!coreOnly) {
     include(":app")
 }
