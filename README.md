@@ -16,7 +16,7 @@ Kural ezberi yoktur. Hata anında, hatanın türüne ve Türkçe ile İngilizce 
 | --- | --- |
 | `core/` | Saf Kotlin: veri modelleri, içerik ayrıştırıcı ve doğrulayıcı, FSRS, i+1 seçici, alıştırma fabrikası, cevap değerlendirici, ipucu motoru, oturum planlayıcı. Android olmadan test edilir. |
 | `app/` | Android (minSdk 26): Room veritabanı, Jetpack Compose ekranları. |
-| `app/src/main/assets/content/` | İçerik: `a1.json` … `c1.json` (17 ünite, 86 cümle, 4 okuma metni) ve `hints.json` (31 dilbilgisi ipucu). |
+| `app/src/main/assets/content/` | İçerik: `a1.json` … `c1.json` (17 ünite, 69 öbek, 86 cümle, 5 okuma metni) ve `hints.json` (31 dilbilgisi ipucu). |
 
 ## Çalıştırma
 
