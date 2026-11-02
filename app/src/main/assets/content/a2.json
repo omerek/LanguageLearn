@@ -1,0 +1,844 @@
+{
+  "level": "A2",
+  "units": [
+    {
+      "id": "a2-u1",
+      "order": 1,
+      "titleTr": "Geçmiş olaylar",
+      "descriptionTr": "Dün, geçen hafta ne yaptığını anlatmak",
+      "chunks": [
+        {
+          "id": "ch-went-to",
+          "en": "went to",
+          "tr": "...e gitti(m)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "past_simple"
+          ],
+          "examples": [
+            "I went to the cinema.",
+            "She went to Paris."
+          ]
+        },
+        {
+          "id": "ch-yesterday",
+          "en": "yesterday",
+          "tr": "dün",
+          "kind": "TIME",
+          "grammarTags": [
+            "word_order_time_place"
+          ],
+          "examples": [
+            "I saw her yesterday."
+          ]
+        },
+        {
+          "id": "ch-last-week",
+          "en": "last week",
+          "tr": "geçen hafta",
+          "kind": "TIME",
+          "grammarTags": [
+            "word_order_time_place"
+          ],
+          "examples": [
+            "We met last week."
+          ]
+        },
+        {
+          "id": "ch-had-a-good-time",
+          "en": "had a good time",
+          "tr": "iyi vakit geçirdi(k)",
+          "kind": "COLLOCATION",
+          "grammarTags": [
+            "past_simple"
+          ],
+          "examples": [
+            "We had a good time in Bodrum."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a2-u1-s01",
+          "tr": "Sinemaya gittim.",
+          "en": "I went to the cinema.",
+          "segments": [
+            {
+              "text": "I",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "went to",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-went-to",
+              "parts": [
+                "went",
+                "to"
+              ],
+              "tag": "past_simple"
+            },
+            {
+              "text": "the cinema",
+              "role": "OBJECT",
+              "parts": [
+                "the",
+                "cinema"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "past_simple"
+          ],
+          "distractors": [
+            {
+              "text": "go to",
+              "tag": "past_simple",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-s02",
+          "tr": "Dün markete gittim.",
+          "en": "I went to the market yesterday.",
+          "segments": [
+            {
+              "text": "I",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "went to",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-went-to",
+              "parts": [
+                "went",
+                "to"
+              ],
+              "tag": "past_simple"
+            },
+            {
+              "text": "the market",
+              "role": "OBJECT",
+              "parts": [
+                "the",
+                "market"
+              ]
+            },
+            {
+              "text": "yesterday",
+              "role": "TIME",
+              "chunkId": "ch-yesterday"
+            }
+          ],
+          "grammarTags": [
+            "past_simple"
+          ],
+          "alternatives": [
+            [
+              3,
+              0,
+              1,
+              2
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "go to",
+              "tag": "past_simple",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-s03",
+          "tr": "Geçen hafta büyükannemi ziyaret ettik.",
+          "en": "We visited my grandmother last week.",
+          "segments": [
+            {
+              "text": "We visited",
+              "role": "VERB_FRAME",
+              "parts": [
+                "We",
+                "visited"
+              ],
+              "tag": "past_simple"
+            },
+            {
+              "text": "my grandmother",
+              "role": "OBJECT",
+              "parts": [
+                "my",
+                "grandmother"
+              ]
+            },
+            {
+              "text": "last week",
+              "role": "TIME",
+              "chunkId": "ch-last-week"
+            }
+          ],
+          "grammarTags": [
+            "past_simple"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "we visit",
+              "tag": "past_simple",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-s04",
+          "tr": "Partide iyi vakit geçirdik.",
+          "en": "We had a good time at the party.",
+          "segments": [
+            {
+              "text": "We",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "had a good time",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-had-a-good-time",
+              "parts": [
+                "had",
+                "a good time"
+              ]
+            },
+            {
+              "text": "at the party",
+              "role": "PLACE",
+              "parts": [
+                "at",
+                "the party"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "past_simple"
+          ],
+          "distractors": [
+            {
+              "text": "have a good time",
+              "tag": "past_simple",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u1-s05",
+          "tr": "Dün akşam filmi gördün mü?",
+          "en": "Did you see the film last night?",
+          "segments": [
+            {
+              "text": "Did you",
+              "role": "VERB_FRAME",
+              "parts": [
+                "Did",
+                "you"
+              ],
+              "tag": "aux_do"
+            },
+            {
+              "text": "see the film",
+              "role": "OBJECT",
+              "parts": [
+                "see",
+                "the film"
+              ],
+              "tag": "past_simple"
+            },
+            {
+              "text": "last night",
+              "role": "TIME",
+              "parts": [
+                "last",
+                "night"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "aux_do",
+            "past_simple"
+          ],
+          "distractors": [
+            {
+              "text": "saw the film",
+              "tag": "past_simple",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "a2-u2",
+      "order": 2,
+      "titleTr": "Planlar",
+      "descriptionTr": "Gelecek planlarını ve randevularını anlatmak",
+      "chunks": [
+        {
+          "id": "ch-going-to",
+          "en": "I'm going to",
+          "tr": "...acağım (plan)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "going_to"
+          ],
+          "examples": [
+            "I'm going to learn English."
+          ]
+        },
+        {
+          "id": "ch-this-weekend",
+          "en": "this weekend",
+          "tr": "bu hafta sonu",
+          "kind": "TIME",
+          "grammarTags": [
+            "word_order_time_place"
+          ],
+          "examples": [
+            "What are you doing this weekend?"
+          ]
+        },
+        {
+          "id": "ch-im-meeting",
+          "en": "I'm meeting",
+          "tr": "...ile buluşuyorum (ayarlanmış plan)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "present_continuous_future"
+          ],
+          "examples": [
+            "I'm meeting Ayşe at six."
+          ]
+        },
+        {
+          "id": "ch-next-year",
+          "en": "next year",
+          "tr": "gelecek yıl",
+          "kind": "TIME",
+          "grammarTags": [
+            "word_order_time_place"
+          ],
+          "examples": [
+            "I'm going to move next year."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a2-u2-s01",
+          "tr": "Annemi arayacağım.",
+          "en": "I'm going to call my mother.",
+          "segments": [
+            {
+              "text": "I'm going to",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-going-to",
+              "parts": [
+                "I'm going",
+                "to"
+              ],
+              "tag": "going_to"
+            },
+            {
+              "text": "call",
+              "role": "VERB_FRAME"
+            },
+            {
+              "text": "my mother",
+              "role": "OBJECT",
+              "parts": [
+                "my",
+                "mother"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "going_to"
+          ],
+          "distractors": [
+            {
+              "text": "I'm going",
+              "tag": "going_to",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-s02",
+          "tr": "Bu hafta sonu evi temizleyeceğim.",
+          "en": "I'm going to clean the house this weekend.",
+          "segments": [
+            {
+              "text": "I'm going to",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-going-to",
+              "parts": [
+                "I'm going",
+                "to"
+              ],
+              "tag": "going_to"
+            },
+            {
+              "text": "clean the house",
+              "role": "OBJECT",
+              "parts": [
+                "clean",
+                "the house"
+              ]
+            },
+            {
+              "text": "this weekend",
+              "role": "TIME",
+              "chunkId": "ch-this-weekend"
+            }
+          ],
+          "grammarTags": [
+            "going_to"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "I going to",
+              "tag": "going_to",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-s03",
+          "tr": "Cumartesi arkadaşlarımla buluşuyorum.",
+          "en": "I'm meeting my friends on Saturday.",
+          "segments": [
+            {
+              "text": "I'm meeting",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-im-meeting",
+              "parts": [
+                "I'm",
+                "meeting"
+              ],
+              "tag": "present_continuous_future"
+            },
+            {
+              "text": "my friends",
+              "role": "OBJECT",
+              "parts": [
+                "my",
+                "friends"
+              ]
+            },
+            {
+              "text": "on Saturday",
+              "role": "TIME",
+              "parts": [
+                "on",
+                "Saturday"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "present_continuous_future"
+          ],
+          "distractors": [
+            {
+              "text": "in Saturday",
+              "tag": "preposition",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-s04",
+          "tr": "Gelecek yıl Londra'da okuyacak.",
+          "en": "She is going to study in London next year.",
+          "segments": [
+            {
+              "text": "She is going to",
+              "role": "VERB_FRAME",
+              "parts": [
+                "She is",
+                "going to"
+              ],
+              "tag": "going_to"
+            },
+            {
+              "text": "study",
+              "role": "VERB_FRAME"
+            },
+            {
+              "text": "in London",
+              "role": "PLACE",
+              "parts": [
+                "in",
+                "London"
+              ],
+              "tag": "preposition"
+            },
+            {
+              "text": "next year",
+              "role": "TIME",
+              "chunkId": "ch-next-year"
+            }
+          ],
+          "grammarTags": [
+            "going_to"
+          ],
+          "alternatives": [
+            [
+              3,
+              0,
+              1,
+              2
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "she going to",
+              "tag": "going_to",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a2-u2-s05",
+          "tr": "Partiye gelecek misin?",
+          "en": "Are you going to come to the party?",
+          "segments": [
+            {
+              "text": "Are you going to",
+              "role": "VERB_FRAME",
+              "parts": [
+                "Are you",
+                "going to"
+              ],
+              "tag": "going_to"
+            },
+            {
+              "text": "come",
+              "role": "VERB_FRAME"
+            },
+            {
+              "text": "to the party",
+              "role": "PLACE",
+              "parts": [
+                "to",
+                "the party"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "going_to"
+          ],
+          "distractors": [
+            {
+              "text": "do you going to",
+              "tag": "going_to",
+              "replaces": 0
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "a2-u3",
+      "order": 3,
+      "titleTr": "Cümleleri bağlama",
+      "descriptionTr": "and, but, so, because ile iki fikri birleştirmek",
+      "chunks": [
+        {
+          "id": "ch-but",
+          "en": "but",
+          "tr": "ama",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_and_but"
+          ],
+          "examples": [
+            "I like tea, but I don't like coffee."
+          ]
+        },
+        {
+          "id": "ch-so",
+          "en": "so",
+          "tr": "bu yüzden",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_so"
+          ],
+          "examples": [
+            "It was late, so we went home."
+          ]
+        },
+        {
+          "id": "ch-because",
+          "en": "because",
+          "tr": "çünkü / ...dığı için",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_because"
+          ],
+          "examples": [
+            "I'm happy because it's Friday."
+          ]
+        },
+        {
+          "id": "ch-and",
+          "en": "and",
+          "tr": "ve",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_and_but"
+          ],
+          "examples": [
+            "She called me and we talked."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a2-u3-s01",
+          "tr": "Ben kahveyi severim ama eşim çayı sever.",
+          "en": "I like coffee, but my wife likes tea.",
+          "segments": [
+            {
+              "text": "I like coffee",
+              "role": "CLAUSE",
+              "parts": [
+                "I like",
+                "coffee"
+              ]
+            },
+            {
+              "text": "but",
+              "role": "CONNECTOR",
+              "chunkId": "ch-but"
+            },
+            {
+              "text": "my wife likes tea",
+              "role": "CLAUSE",
+              "parts": [
+                "my wife",
+                "likes tea"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_and_but"
+          ],
+          "distractors": [
+            {
+              "text": "so",
+              "tag": "connector_and_but",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-s02",
+          "tr": "Yorgundum, bu yüzden erken yattım.",
+          "en": "I was tired, so I went to bed early.",
+          "segments": [
+            {
+              "text": "I was tired",
+              "role": "CLAUSE",
+              "parts": [
+                "I was",
+                "tired"
+              ]
+            },
+            {
+              "text": "so",
+              "role": "CONNECTOR",
+              "chunkId": "ch-so"
+            },
+            {
+              "text": "I went to bed early",
+              "role": "CLAUSE",
+              "parts": [
+                "I went to bed",
+                "early"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_so"
+          ],
+          "distractors": [
+            {
+              "text": "because",
+              "tag": "connector_so",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-s03",
+          "tr": "Hasta olduğum için evde kaldım.",
+          "en": "I stayed at home because I was ill.",
+          "segments": [
+            {
+              "text": "I stayed at home",
+              "role": "CLAUSE",
+              "parts": [
+                "I stayed",
+                "at home"
+              ]
+            },
+            {
+              "text": "because",
+              "role": "CONNECTOR",
+              "chunkId": "ch-because"
+            },
+            {
+              "text": "I was ill",
+              "role": "CLAUSE",
+              "parts": [
+                "I was",
+                "ill"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_because"
+          ],
+          "distractors": [
+            {
+              "text": "so",
+              "tag": "connector_because",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-s04",
+          "tr": "Beni aradı ve bir saat konuştuk.",
+          "en": "She called me and we talked for an hour.",
+          "segments": [
+            {
+              "text": "She called me",
+              "role": "CLAUSE",
+              "parts": [
+                "She called",
+                "me"
+              ]
+            },
+            {
+              "text": "and",
+              "role": "CONNECTOR",
+              "chunkId": "ch-and"
+            },
+            {
+              "text": "we talked",
+              "role": "CLAUSE"
+            },
+            {
+              "text": "for an hour",
+              "role": "TIME",
+              "parts": [
+                "for",
+                "an hour"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "connector_and_but"
+          ],
+          "distractors": [
+            {
+              "text": "because",
+              "tag": "connector_and_but",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a2-u3-s05",
+          "tr": "Yağmur yağdığı için dışarı çıkmadık.",
+          "en": "We didn't go out because it was raining.",
+          "segments": [
+            {
+              "text": "We didn't go out",
+              "role": "CLAUSE",
+              "parts": [
+                "We didn't",
+                "go out"
+              ]
+            },
+            {
+              "text": "because",
+              "role": "CONNECTOR",
+              "chunkId": "ch-because"
+            },
+            {
+              "text": "it was raining",
+              "role": "CLAUSE",
+              "parts": [
+                "it was",
+                "raining"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_because"
+          ],
+          "distractors": [
+            {
+              "text": "so",
+              "tag": "connector_because",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "id": "a2-u3-r1",
+          "titleTr": "Yoğun bir hafta",
+          "paragraphs": [
+            {
+              "en": "Last week I went to the market with my brother. We had a good time.",
+              "tr": "Geçen hafta erkek kardeşimle markete gittim. İyi vakit geçirdik."
+            },
+            {
+              "en": "I wanted a new car, but it was very expensive, so I didn't buy it.",
+              "tr": "Yeni bir araba istedim ama çok pahalıydı, bu yüzden almadım."
+            },
+            {
+              "en": "This weekend I'm going to clean the house because I'm meeting my friends on Saturday.",
+              "tr": "Bu hafta sonu evi temizleyeceğim çünkü cumartesi arkadaşlarımla buluşuyorum."
+            }
+          ],
+          "glosses": {
+            "with": "ile",
+            "wanted": "istedim",
+            "expensive": "pahalı",
+            "buy": "satın almak"
+          }
+        }
+      ]
+    }
+  ]
+}

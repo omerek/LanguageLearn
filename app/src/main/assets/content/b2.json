@@ -1,0 +1,966 @@
+{
+  "level": "B2",
+  "units": [
+    {
+      "id": "b2-u1",
+      "order": 1,
+      "titleTr": "Zıtlık",
+      "descriptionTr": "although, even though, whereas, despite ile karşıt fikirleri bağlamak",
+      "chunks": [
+        {
+          "id": "ch-although",
+          "en": "although",
+          "tr": "...e rağmen / ...dığı halde",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_contrast"
+          ],
+          "examples": [
+            "Although he was tired, he kept working."
+          ]
+        },
+        {
+          "id": "ch-even-though",
+          "en": "even though",
+          "tr": "...dığı halde (vurgulu)",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_contrast"
+          ],
+          "examples": [
+            "She smiled even though she was sad."
+          ]
+        },
+        {
+          "id": "ch-whereas",
+          "en": "whereas",
+          "tr": "...iken / oysa",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "connector_contrast"
+          ],
+          "examples": [
+            "I love summer, whereas my wife prefers winter."
+          ]
+        },
+        {
+          "id": "ch-despite",
+          "en": "despite",
+          "tr": "...e rağmen (isim veya -ing ile)",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "despite_noun"
+          ],
+          "examples": [
+            "Despite the traffic, we arrived on time."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "b2-u1-s01",
+          "tr": "Hava soğuk olmasına rağmen yüzmeye gittik.",
+          "en": "Although it was cold, we went swimming.",
+          "segments": [
+            {
+              "text": "Although",
+              "role": "CONNECTOR",
+              "chunkId": "ch-although"
+            },
+            {
+              "text": "it was cold",
+              "role": "CLAUSE",
+              "parts": [
+                "it was",
+                "cold"
+              ]
+            },
+            {
+              "text": "we went swimming",
+              "role": "CLAUSE",
+              "parts": [
+                "we went",
+                "swimming"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_contrast"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "despite",
+              "tag": "despite_noun",
+              "replaces": 0
+            },
+            {
+              "text": "so",
+              "tag": "connector_contrast",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-s02",
+          "tr": "Çok çalışmasına rağmen sınavda başarısız oldu.",
+          "en": "He failed the exam even though he studied hard.",
+          "segments": [
+            {
+              "text": "He failed the exam",
+              "role": "CLAUSE",
+              "parts": [
+                "He failed",
+                "the exam"
+              ]
+            },
+            {
+              "text": "even though",
+              "role": "CONNECTOR",
+              "chunkId": "ch-even-though",
+              "parts": [
+                "even",
+                "though"
+              ]
+            },
+            {
+              "text": "he studied hard",
+              "role": "CLAUSE",
+              "parts": [
+                "he studied",
+                "hard"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_contrast"
+          ],
+          "alternatives": [
+            [
+              1,
+              2,
+              0
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "because",
+              "tag": "connector_contrast",
+              "replaces": 1
+            },
+            {
+              "text": "despite",
+              "tag": "despite_noun",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-s03",
+          "tr": "Kardeşim futbolu sever, bense basketbolu tercih ederim.",
+          "en": "My brother loves football, whereas I prefer basketball.",
+          "segments": [
+            {
+              "text": "My brother loves football",
+              "role": "CLAUSE",
+              "parts": [
+                "My brother",
+                "loves football"
+              ]
+            },
+            {
+              "text": "whereas",
+              "role": "CONNECTOR",
+              "chunkId": "ch-whereas"
+            },
+            {
+              "text": "I prefer basketball",
+              "role": "CLAUSE",
+              "parts": [
+                "I prefer",
+                "basketball"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "connector_contrast"
+          ],
+          "distractors": [
+            {
+              "text": "so",
+              "tag": "connector_contrast",
+              "replaces": 1
+            },
+            {
+              "text": "because",
+              "tag": "connector_contrast",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-s04",
+          "tr": "Yağmura rağmen maç devam etti.",
+          "en": "Despite the rain, the match continued.",
+          "segments": [
+            {
+              "text": "Despite",
+              "role": "CONNECTOR",
+              "chunkId": "ch-despite"
+            },
+            {
+              "text": "the rain",
+              "role": "OBJECT",
+              "parts": [
+                "the",
+                "rain"
+              ]
+            },
+            {
+              "text": "the match continued",
+              "role": "CLAUSE",
+              "parts": [
+                "the match",
+                "continued"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "despite_noun"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "although",
+              "tag": "despite_noun",
+              "replaces": 0
+            },
+            {
+              "text": "despite of",
+              "tag": "despite_noun",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "b2-u1-s05",
+          "tr": "Hasta hissetmesine rağmen işe gitti.",
+          "en": "She went to work despite feeling ill.",
+          "segments": [
+            {
+              "text": "She went to work",
+              "role": "CLAUSE",
+              "parts": [
+                "She went",
+                "to work"
+              ]
+            },
+            {
+              "text": "despite",
+              "role": "CONNECTOR",
+              "chunkId": "ch-despite"
+            },
+            {
+              "text": "feeling ill",
+              "role": "CLAUSE",
+              "parts": [
+                "feeling",
+                "ill"
+              ],
+              "tag": "despite_noun"
+            }
+          ],
+          "grammarTags": [
+            "despite_noun"
+          ],
+          "alternatives": [
+            [
+              1,
+              2,
+              0
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "she felt ill",
+              "tag": "despite_noun",
+              "replaces": 2
+            },
+            {
+              "text": "although",
+              "tag": "despite_noun",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "b2-u2",
+      "order": 2,
+      "titleTr": "Varsayım ve pişmanlık",
+      "descriptionTr": "Gerçek dışı durumlar: If I were, would have, I wish",
+      "chunks": [
+        {
+          "id": "ch-if-i-were",
+          "en": "If I were",
+          "tr": "Ben ... olsaydım / olsam",
+          "kind": "FRAME",
+          "grammarTags": [
+            "conditional_2"
+          ],
+          "examples": [
+            "If I were rich, I'd buy a boat."
+          ]
+        },
+        {
+          "id": "ch-i-would",
+          "en": "I would",
+          "tr": "...ardım",
+          "kind": "FRAME",
+          "grammarTags": [
+            "conditional_2"
+          ],
+          "examples": [
+            "I would help, but I'm busy."
+          ]
+        },
+        {
+          "id": "ch-would-have",
+          "en": "would have",
+          "tr": "...mış olurdu(m)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "conditional_3"
+          ],
+          "examples": [
+            "I would have called you."
+          ]
+        },
+        {
+          "id": "ch-i-wish",
+          "en": "I wish",
+          "tr": "Keşke",
+          "kind": "FRAME",
+          "grammarTags": [
+            "wish"
+          ],
+          "examples": [
+            "I wish I knew the answer."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "b2-u2-s01",
+          "tr": "Senin yerinde olsam özür dilerdim.",
+          "en": "If I were you, I would apologise.",
+          "segments": [
+            {
+              "text": "If I were",
+              "role": "CONNECTOR",
+              "chunkId": "ch-if-i-were",
+              "parts": [
+                "If I",
+                "were"
+              ],
+              "tag": "conditional_2"
+            },
+            {
+              "text": "you",
+              "role": "COMPLEMENT"
+            },
+            {
+              "text": "I would apologise",
+              "role": "CLAUSE",
+              "parts": [
+                "I would",
+                "apologise"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "conditional_2"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "if I am",
+              "tag": "conditional_2",
+              "replaces": 0
+            },
+            {
+              "text": "I will apologise",
+              "tag": "conditional_2",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-s02",
+          "tr": "Daha çok param olsaydı dünyayı gezerdim.",
+          "en": "If I had more money, I would travel the world.",
+          "segments": [
+            {
+              "text": "If",
+              "role": "CONNECTOR",
+              "chunkId": "ch-if"
+            },
+            {
+              "text": "I had more money",
+              "role": "CLAUSE",
+              "parts": [
+                "I had",
+                "more money"
+              ]
+            },
+            {
+              "text": "I would",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-i-would",
+              "parts": [
+                "I",
+                "would"
+              ],
+              "tag": "conditional_2"
+            },
+            {
+              "text": "travel the world",
+              "role": "OBJECT",
+              "parts": [
+                "travel",
+                "the world"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "conditional_2"
+          ],
+          "alternatives": [
+            [
+              2,
+              3,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "I will",
+              "tag": "conditional_2",
+              "replaces": 2
+            },
+            {
+              "text": "I have more money",
+              "tag": "conditional_2",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-s03",
+          "tr": "Daha erken çıksaydık treni yakalardık.",
+          "en": "If we had left earlier, we would have caught the train.",
+          "segments": [
+            {
+              "text": "If",
+              "role": "CONNECTOR",
+              "chunkId": "ch-if"
+            },
+            {
+              "text": "we had left earlier",
+              "role": "CLAUSE",
+              "parts": [
+                "we had left",
+                "earlier"
+              ],
+              "tag": "conditional_3"
+            },
+            {
+              "text": "we would have",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-would-have",
+              "parts": [
+                "we",
+                "would have"
+              ],
+              "tag": "conditional_3"
+            },
+            {
+              "text": "caught the train",
+              "role": "OBJECT",
+              "parts": [
+                "caught",
+                "the train"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "conditional_3"
+          ],
+          "alternatives": [
+            [
+              2,
+              3,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "we left earlier",
+              "tag": "conditional_3",
+              "replaces": 1
+            },
+            {
+              "text": "we would",
+              "tag": "conditional_3",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-s04",
+          "tr": "Keşke Fransızca konuşabilsem.",
+          "en": "I wish I spoke French.",
+          "segments": [
+            {
+              "text": "I wish",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-i-wish",
+              "parts": [
+                "I",
+                "wish"
+              ]
+            },
+            {
+              "text": "I spoke French",
+              "role": "CLAUSE",
+              "parts": [
+                "I spoke",
+                "French"
+              ],
+              "tag": "wish"
+            }
+          ],
+          "grammarTags": [
+            "wish"
+          ],
+          "distractors": [
+            {
+              "text": "I speak French",
+              "tag": "wish",
+              "replaces": 1
+            },
+            {
+              "text": "I will speak French",
+              "tag": "wish",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u2-s05",
+          "tr": "Keşke daha çok çalışsaydım.",
+          "en": "I wish I had studied harder.",
+          "segments": [
+            {
+              "text": "I wish",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-i-wish",
+              "parts": [
+                "I",
+                "wish"
+              ]
+            },
+            {
+              "text": "I had studied harder",
+              "role": "CLAUSE",
+              "parts": [
+                "I had studied",
+                "harder"
+              ],
+              "tag": "wish"
+            }
+          ],
+          "grammarTags": [
+            "wish"
+          ],
+          "distractors": [
+            {
+              "text": "I studied harder",
+              "tag": "wish",
+              "replaces": 1
+            },
+            {
+              "text": "I study harder",
+              "tag": "wish",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "b2-u3",
+      "order": 3,
+      "titleTr": "Edilgen ve ortaç yapılar",
+      "descriptionTr": "Eylemi yapanı değil eylemi öne çıkarmak; ortaçla cümle kısaltmak",
+      "chunks": [
+        {
+          "id": "ch-was-built",
+          "en": "was built",
+          "tr": "inşa edildi",
+          "kind": "FRAME",
+          "grammarTags": [
+            "passive"
+          ],
+          "examples": [
+            "The castle was built in 1500."
+          ]
+        },
+        {
+          "id": "ch-is-being",
+          "en": "is being",
+          "tr": "...ılıyor (şu anda)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "passive"
+          ],
+          "examples": [
+            "The car is being washed."
+          ]
+        },
+        {
+          "id": "ch-has-been",
+          "en": "has been",
+          "tr": "...ıldı / ...ılmış",
+          "kind": "FRAME",
+          "grammarTags": [
+            "passive"
+          ],
+          "examples": [
+            "The letter has been sent."
+          ]
+        },
+        {
+          "id": "ch-having-finished",
+          "en": "Having finished",
+          "tr": "...ı bitirdikten sonra",
+          "kind": "FRAME",
+          "grammarTags": [
+            "participle_clause"
+          ],
+          "examples": [
+            "Having finished dinner, we went out."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "b2-u3-s01",
+          "tr": "Bu köprü 1973'te inşa edildi.",
+          "en": "This bridge was built in 1973.",
+          "segments": [
+            {
+              "text": "This bridge",
+              "role": "SUBJECT",
+              "parts": [
+                "This",
+                "bridge"
+              ]
+            },
+            {
+              "text": "was built",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-was-built",
+              "parts": [
+                "was",
+                "built"
+              ],
+              "tag": "passive"
+            },
+            {
+              "text": "in 1973",
+              "role": "TIME",
+              "parts": [
+                "in",
+                "1973"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "passive"
+          ],
+          "distractors": [
+            {
+              "text": "built",
+              "tag": "passive",
+              "replaces": 1
+            },
+            {
+              "text": "is build",
+              "tag": "passive",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-s02",
+          "tr": "Yol şu anda onarılıyor.",
+          "en": "The road is being repaired at the moment.",
+          "segments": [
+            {
+              "text": "The road",
+              "role": "SUBJECT",
+              "parts": [
+                "The",
+                "road"
+              ]
+            },
+            {
+              "text": "is being",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-is-being",
+              "parts": [
+                "is",
+                "being"
+              ],
+              "tag": "passive"
+            },
+            {
+              "text": "repaired",
+              "role": "VERB_FRAME",
+              "tag": "passive"
+            },
+            {
+              "text": "at the moment",
+              "role": "TIME",
+              "parts": [
+                "at",
+                "the moment"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "passive"
+          ],
+          "distractors": [
+            {
+              "text": "repairing",
+              "tag": "passive",
+              "replaces": 2
+            },
+            {
+              "text": "is repairing",
+              "tag": "passive",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-s03",
+          "tr": "Toplantı iptal edildi.",
+          "en": "The meeting has been cancelled.",
+          "segments": [
+            {
+              "text": "The meeting",
+              "role": "SUBJECT",
+              "parts": [
+                "The",
+                "meeting"
+              ]
+            },
+            {
+              "text": "has been",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-has-been",
+              "parts": [
+                "has",
+                "been"
+              ],
+              "tag": "passive"
+            },
+            {
+              "text": "cancelled",
+              "role": "VERB_FRAME",
+              "tag": "passive"
+            }
+          ],
+          "grammarTags": [
+            "passive"
+          ],
+          "distractors": [
+            {
+              "text": "has cancelled",
+              "tag": "passive",
+              "replaces": 1
+            },
+            {
+              "text": "cancelling",
+              "tag": "passive",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-s04",
+          "tr": "İşini bitirdikten sonra eve gitti.",
+          "en": "Having finished her work, she went home.",
+          "segments": [
+            {
+              "text": "Having finished",
+              "role": "CLAUSE",
+              "chunkId": "ch-having-finished",
+              "parts": [
+                "Having",
+                "finished"
+              ],
+              "tag": "participle_clause"
+            },
+            {
+              "text": "her work",
+              "role": "OBJECT",
+              "parts": [
+                "her",
+                "work"
+              ]
+            },
+            {
+              "text": "she went home",
+              "role": "CLAUSE",
+              "parts": [
+                "she went",
+                "home"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "participle_clause"
+          ],
+          "distractors": [
+            {
+              "text": "have finished",
+              "tag": "participle_clause",
+              "replaces": 0
+            },
+            {
+              "text": "she going home",
+              "tag": "participle_clause",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "b2-u3-s05",
+          "tr": "Yanımda oturan kadın bir doktordu.",
+          "en": "The woman sitting next to me was a doctor.",
+          "segments": [
+            {
+              "text": "The woman",
+              "role": "SUBJECT",
+              "parts": [
+                "The",
+                "woman"
+              ]
+            },
+            {
+              "text": "sitting next to me",
+              "role": "CLAUSE",
+              "parts": [
+                "sitting",
+                "next to me"
+              ],
+              "tag": "participle_clause"
+            },
+            {
+              "text": "was a doctor",
+              "role": "VERB_FRAME",
+              "parts": [
+                "was",
+                "a doctor"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "participle_clause"
+          ],
+          "distractors": [
+            {
+              "text": "who sitting",
+              "tag": "participle_clause",
+              "replaces": 1
+            },
+            {
+              "text": "sat next to me",
+              "tag": "participle_clause",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "id": "b2-u3-r1",
+          "titleTr": "Eski köprü",
+          "paragraphs": [
+            {
+              "en": "The old bridge in our town was built in 1973. Although it was strong, it has been closed since last year.",
+              "tr": "Kasabamızdaki eski köprü 1973'te inşa edildi. Sağlam olmasına rağmen geçen yıldan beri kapalı."
+            },
+            {
+              "en": "At the moment it is being repaired. If I were the mayor, I would build a new one, whereas my father thinks the old bridge is beautiful.",
+              "tr": "Şu anda onarılıyor. Belediye başkanı ben olsam yenisini yapardım, oysa babam eski köprünün güzel olduğunu düşünüyor."
+            },
+            {
+              "en": "Having finished the work, the engineers will open it again. Despite the delay, everyone is happy.",
+              "tr": "Mühendisler işi bitirdikten sonra köprüyü yeniden açacak. Gecikmeye rağmen herkes mutlu."
+            }
+          ],
+          "glosses": {
+            "town": "kasaba",
+            "strong": "sağlam",
+            "closed": "kapalı",
+            "mayor": "belediye başkanı",
+            "build": "inşa etmek",
+            "one": "(yenisi)",
+            "thinks": "düşünüyor",
+            "beautiful": "güzel",
+            "engineers": "mühendisler",
+            "open": "açmak",
+            "again": "yeniden",
+            "delay": "gecikme",
+            "everyone": "herkes",
+            "happy": "mutlu",
+            "old": "eski",
+            "our": "bizim",
+            "will": "-ecek",
+            "last year": "geçen yıl",
+            "new": "yeni",
+            "father": "baba"
+          }
+        }
+      ]
+    }
+  ]
+}
