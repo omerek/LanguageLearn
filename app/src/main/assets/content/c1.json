@@ -1,0 +1,941 @@
+{
+  "level": "C1",
+  "units": [
+    {
+      "id": "c1-u1",
+      "order": 1,
+      "titleTr": "Devrik yapılar",
+      "descriptionTr": "Olumsuz zarflarla başlayan vurgulu cümleler",
+      "chunks": [
+        {
+          "id": "ch-not-only",
+          "en": "Not only",
+          "tr": "Sadece ... değil",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "inversion"
+          ],
+          "examples": [
+            "Not only is it cheap, but it's also fast."
+          ]
+        },
+        {
+          "id": "ch-never-have-i",
+          "en": "Never have I",
+          "tr": "Hayatımda hiç ...madım",
+          "kind": "FRAME",
+          "grammarTags": [
+            "inversion"
+          ],
+          "examples": [
+            "Never have I felt so tired."
+          ]
+        },
+        {
+          "id": "ch-hardly-had",
+          "en": "Hardly had",
+          "tr": "...ır ...maz (geçmişte)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "inversion"
+          ],
+          "examples": [
+            "Hardly had I sat down when he called."
+          ]
+        },
+        {
+          "id": "ch-rarely",
+          "en": "Rarely",
+          "tr": "Nadiren",
+          "kind": "TIME",
+          "grammarTags": [
+            "inversion"
+          ],
+          "examples": [
+            "Rarely do I eat meat."
+          ]
+        },
+        {
+          "id": "ch-only-then",
+          "en": "Only then",
+          "tr": "Ancak o zaman",
+          "kind": "TIME",
+          "grammarTags": [
+            "inversion"
+          ],
+          "examples": [
+            "Only then did she smile."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "c1-u1-s01",
+          "tr": "Sadece kazanmakla kalmadı, rekoru da kırdı.",
+          "en": "Not only did she win, but she also broke the record.",
+          "segments": [
+            {
+              "text": "Not only",
+              "role": "CONNECTOR",
+              "chunkId": "ch-not-only",
+              "parts": [
+                "Not",
+                "only"
+              ]
+            },
+            {
+              "text": "did she win",
+              "role": "VERB_FRAME",
+              "parts": [
+                "did she",
+                "win"
+              ],
+              "tag": "inversion"
+            },
+            {
+              "text": "but she also",
+              "role": "CONNECTOR",
+              "parts": [
+                "but",
+                "she also"
+              ]
+            },
+            {
+              "text": "broke the record",
+              "role": "OBJECT",
+              "parts": [
+                "broke",
+                "the record"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "inversion"
+          ],
+          "distractors": [
+            {
+              "text": "she won",
+              "tag": "inversion",
+              "replaces": 1
+            },
+            {
+              "text": "she did win",
+              "tag": "inversion",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "c1-u1-s02",
+          "tr": "Hayatımda hiç böyle güzel bir manzara görmedim.",
+          "en": "Never have I seen such a beautiful view.",
+          "segments": [
+            {
+              "text": "Never have I",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-never-have-i",
+              "parts": [
+                "Never",
+                "have I"
+              ],
+              "tag": "inversion"
+            },
+            {
+              "text": "seen",
+              "role": "VERB_FRAME"
+            },
+            {
+              "text": "such a beautiful view",
+              "role": "OBJECT",
+              "parts": [
+                "such a",
+                "beautiful view"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "inversion"
+          ],
+          "distractors": [
+            {
+              "text": "never I have",
+              "tag": "inversion",
+              "replaces": 0
+            },
+            {
+              "text": "saw",
+              "tag": "present_perfect",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "c1-u1-s03",
+          "tr": "Biz varır varmaz telefon çaldı.",
+          "en": "Hardly had we arrived when the phone rang.",
+          "segments": [
+            {
+              "text": "Hardly had",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-hardly-had",
+              "parts": [
+                "Hardly",
+                "had"
+              ],
+              "tag": "inversion"
+            },
+            {
+              "text": "we arrived",
+              "role": "CLAUSE",
+              "parts": [
+                "we",
+                "arrived"
+              ]
+            },
+            {
+              "text": "when the phone rang",
+              "role": "CLAUSE",
+              "parts": [
+                "when",
+                "the phone rang"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "inversion"
+          ],
+          "distractors": [
+            {
+              "text": "we had",
+              "tag": "inversion",
+              "replaces": 0
+            },
+            {
+              "text": "than the phone rang",
+              "tag": "inversion",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "c1-u1-s04",
+          "tr": "Böyle bir yeteneği nadiren görürüz.",
+          "en": "Rarely do we see such talent.",
+          "segments": [
+            {
+              "text": "Rarely",
+              "role": "TIME",
+              "chunkId": "ch-rarely"
+            },
+            {
+              "text": "do we see",
+              "role": "VERB_FRAME",
+              "parts": [
+                "do we",
+                "see"
+              ],
+              "tag": "inversion"
+            },
+            {
+              "text": "such talent",
+              "role": "OBJECT",
+              "parts": [
+                "such",
+                "talent"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "inversion"
+          ],
+          "distractors": [
+            {
+              "text": "we see",
+              "tag": "inversion",
+              "replaces": 1
+            },
+            {
+              "text": "we do see",
+              "tag": "inversion",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "c1-u1-s05",
+          "tr": "Sorunu ancak o zaman anladım.",
+          "en": "Only then did I understand the problem.",
+          "segments": [
+            {
+              "text": "Only then",
+              "role": "TIME",
+              "chunkId": "ch-only-then",
+              "parts": [
+                "Only",
+                "then"
+              ]
+            },
+            {
+              "text": "did I understand",
+              "role": "VERB_FRAME",
+              "parts": [
+                "did I",
+                "understand"
+              ],
+              "tag": "inversion"
+            },
+            {
+              "text": "the problem",
+              "role": "OBJECT",
+              "parts": [
+                "the",
+                "problem"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "inversion"
+          ],
+          "distractors": [
+            {
+              "text": "I understood",
+              "tag": "inversion",
+              "replaces": 1
+            },
+            {
+              "text": "I did understand",
+              "tag": "inversion",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "c1-u2",
+      "order": 2,
+      "titleTr": "Vurgu yapıları",
+      "descriptionTr": "Cleft cümlelerle bilginin bir parçasını öne çıkarmak",
+      "chunks": [
+        {
+          "id": "ch-what-i-need-is",
+          "en": "What I need is",
+          "tr": "Bana gereken şey ...",
+          "kind": "FRAME",
+          "grammarTags": [
+            "cleft"
+          ],
+          "examples": [
+            "What I need is some sleep."
+          ]
+        },
+        {
+          "id": "ch-it-was",
+          "en": "It was",
+          "tr": "...olan ...ydı (vurgu)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "cleft"
+          ],
+          "examples": [
+            "It was Ahmet who called."
+          ]
+        },
+        {
+          "id": "ch-all-i-want-is",
+          "en": "All I want is",
+          "tr": "Tek istediğim ...",
+          "kind": "FRAME",
+          "grammarTags": [
+            "cleft"
+          ],
+          "examples": [
+            "All I want is a cup of tea."
+          ]
+        },
+        {
+          "id": "ch-the-reason-why",
+          "en": "The reason why",
+          "tr": "...nın nedeni",
+          "kind": "FRAME",
+          "grammarTags": [
+            "cleft"
+          ],
+          "examples": [
+            "The reason why I'm late is the traffic."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "c1-u2-s01",
+          "tr": "Bana gereken uzun bir tatil.",
+          "en": "What I need is a long holiday.",
+          "segments": [
+            {
+              "text": "What I need is",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-what-i-need-is",
+              "parts": [
+                "What I need",
+                "is"
+              ],
+              "tag": "cleft"
+            },
+            {
+              "text": "a long holiday",
+              "role": "OBJECT",
+              "parts": [
+                "a long",
+                "holiday"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "cleft"
+          ],
+          "distractors": [
+            {
+              "text": "what I need",
+              "tag": "cleft",
+              "replaces": 0
+            },
+            {
+              "text": "that I need is",
+              "tag": "cleft",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "c1-u2-s02",
+          "tr": "Haberi bana söyleyen kız kardeşimdi.",
+          "en": "It was my sister who told me the news.",
+          "segments": [
+            {
+              "text": "It was",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-it-was",
+              "parts": [
+                "It",
+                "was"
+              ],
+              "tag": "cleft"
+            },
+            {
+              "text": "my sister",
+              "role": "SUBJECT",
+              "parts": [
+                "my",
+                "sister"
+              ]
+            },
+            {
+              "text": "who told me the news",
+              "role": "CLAUSE",
+              "parts": [
+                "who told me",
+                "the news"
+              ],
+              "tag": "relative_clause"
+            }
+          ],
+          "grammarTags": [
+            "cleft"
+          ],
+          "distractors": [
+            {
+              "text": "which told me the news",
+              "tag": "relative_clause",
+              "replaces": 2
+            },
+            {
+              "text": "she told me the news",
+              "tag": "cleft",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "c1-u2-s03",
+          "tr": "Tek istediğim sakin bir akşam.",
+          "en": "All I want is a quiet evening.",
+          "segments": [
+            {
+              "text": "All I want is",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-all-i-want-is",
+              "parts": [
+                "All I want",
+                "is"
+              ],
+              "tag": "cleft"
+            },
+            {
+              "text": "a quiet evening",
+              "role": "OBJECT",
+              "parts": [
+                "a quiet",
+                "evening"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "cleft"
+          ],
+          "distractors": [
+            {
+              "text": "all I want",
+              "tag": "cleft",
+              "replaces": 0
+            },
+            {
+              "text": "all what I want is",
+              "tag": "cleft",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "c1-u2-s04",
+          "tr": "Ayrılmamın nedeni maaştı.",
+          "en": "The reason why I left was the salary.",
+          "segments": [
+            {
+              "text": "The reason why",
+              "role": "SUBJECT",
+              "chunkId": "ch-the-reason-why",
+              "parts": [
+                "The reason",
+                "why"
+              ],
+              "tag": "cleft"
+            },
+            {
+              "text": "I left",
+              "role": "CLAUSE",
+              "parts": [
+                "I",
+                "left"
+              ]
+            },
+            {
+              "text": "was the salary",
+              "role": "VERB_FRAME",
+              "parts": [
+                "was",
+                "the salary"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "cleft"
+          ],
+          "distractors": [
+            {
+              "text": "did I leave",
+              "tag": "cleft",
+              "replaces": 1
+            },
+            {
+              "text": "because the salary",
+              "tag": "cleft",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "c1-u2-s05",
+          "tr": "İlk kez tanıştıkları yer Paris'ti.",
+          "en": "It was in Paris that they first met.",
+          "segments": [
+            {
+              "text": "It was",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-it-was",
+              "parts": [
+                "It",
+                "was"
+              ],
+              "tag": "cleft"
+            },
+            {
+              "text": "in Paris",
+              "role": "PLACE",
+              "parts": [
+                "in",
+                "Paris"
+              ]
+            },
+            {
+              "text": "that they first met",
+              "role": "CLAUSE",
+              "parts": [
+                "that",
+                "they first met"
+              ],
+              "tag": "cleft"
+            }
+          ],
+          "grammarTags": [
+            "cleft"
+          ],
+          "distractors": [
+            {
+              "text": "where they first met",
+              "tag": "cleft",
+              "replaces": 2
+            },
+            {
+              "text": "did they first meet",
+              "tag": "cleft",
+              "replaces": 2
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "c1-u3",
+      "order": 3,
+      "titleTr": "Söylem belirteçleri",
+      "descriptionTr": "Cümleler arasında akıl yürütmeyi göstermek",
+      "chunks": [
+        {
+          "id": "ch-nevertheless",
+          "en": "Nevertheless",
+          "tr": "Yine de",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "examples": [
+            "It was hard. Nevertheless, we finished."
+          ]
+        },
+        {
+          "id": "ch-given-that",
+          "en": "Given that",
+          "tr": "...dığı düşünülürse",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "examples": [
+            "Given that it's Sunday, the shop is closed."
+          ]
+        },
+        {
+          "id": "ch-having-said-that",
+          "en": "Having said that",
+          "tr": "Bununla birlikte",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "examples": [
+            "It's expensive. Having said that, it's worth it."
+          ]
+        },
+        {
+          "id": "ch-as-a-result",
+          "en": "As a result",
+          "tr": "Sonuç olarak",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "examples": [
+            "He missed the bus. As a result, he was late."
+          ]
+        },
+        {
+          "id": "ch-however",
+          "en": "however",
+          "tr": "ancak / fakat",
+          "kind": "CONNECTOR",
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "examples": [
+            "The plan is good; however, it is expensive."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "c1-u3-s01",
+          "tr": "Plan riskliydi. Yine de denemeye karar verdik.",
+          "en": "The plan was risky. Nevertheless, we decided to try.",
+          "segments": [
+            {
+              "text": "The plan was risky",
+              "role": "CLAUSE",
+              "parts": [
+                "The plan",
+                "was risky"
+              ]
+            },
+            {
+              "text": "Nevertheless",
+              "role": "CONNECTOR",
+              "chunkId": "ch-nevertheless"
+            },
+            {
+              "text": "we decided to try",
+              "role": "CLAUSE",
+              "parts": [
+                "we decided",
+                "to try"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "distractors": [
+            {
+              "text": "Because",
+              "tag": "discourse_marker",
+              "replaces": 1
+            },
+            {
+              "text": "Despite",
+              "tag": "despite_noun",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "c1-u3-s02",
+          "tr": "Geç olduğunu düşünerek taksiye bindik.",
+          "en": "Given that it was late, we took a taxi.",
+          "segments": [
+            {
+              "text": "Given that",
+              "role": "CONNECTOR",
+              "chunkId": "ch-given-that",
+              "parts": [
+                "Given",
+                "that"
+              ]
+            },
+            {
+              "text": "it was late",
+              "role": "CLAUSE",
+              "parts": [
+                "it was",
+                "late"
+              ]
+            },
+            {
+              "text": "we took a taxi",
+              "role": "CLAUSE",
+              "parts": [
+                "we took",
+                "a taxi"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "despite",
+              "tag": "despite_noun",
+              "replaces": 0
+            },
+            {
+              "text": "given",
+              "tag": "discourse_marker",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "c1-u3-s03",
+          "tr": "Otel pahalıydı. Bununla birlikte hizmet mükemmeldi.",
+          "en": "The hotel was expensive. Having said that, the service was excellent.",
+          "segments": [
+            {
+              "text": "The hotel was expensive",
+              "role": "CLAUSE",
+              "parts": [
+                "The hotel",
+                "was expensive"
+              ]
+            },
+            {
+              "text": "Having said that",
+              "role": "CONNECTOR",
+              "chunkId": "ch-having-said-that",
+              "parts": [
+                "Having said",
+                "that"
+              ]
+            },
+            {
+              "text": "the service was excellent",
+              "role": "CLAUSE",
+              "parts": [
+                "the service",
+                "was excellent"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "distractors": [
+            {
+              "text": "As a result",
+              "tag": "discourse_marker",
+              "replaces": 1
+            },
+            {
+              "text": "Having saying that",
+              "tag": "discourse_marker",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "c1-u3-s04",
+          "tr": "Fiyatlar hızla yükseldi. Sonuç olarak satışlar düştü.",
+          "en": "Prices rose sharply. As a result, sales fell.",
+          "segments": [
+            {
+              "text": "Prices rose sharply",
+              "role": "CLAUSE",
+              "parts": [
+                "Prices rose",
+                "sharply"
+              ]
+            },
+            {
+              "text": "As a result",
+              "role": "CONNECTOR",
+              "chunkId": "ch-as-a-result",
+              "parts": [
+                "As a",
+                "result"
+              ]
+            },
+            {
+              "text": "sales fell",
+              "role": "CLAUSE",
+              "parts": [
+                "sales",
+                "fell"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "discourse_marker"
+          ],
+          "distractors": [
+            {
+              "text": "Nevertheless",
+              "tag": "discourse_marker",
+              "replaces": 1
+            },
+            {
+              "text": "As result",
+              "tag": "discourse_marker",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "c1-u3-s05",
+          "tr": "Sonuçlar umut vericiydi; ancak daha fazla araştırma gerekiyor.",
+          "en": "The results were promising; however, more research is needed.",
+          "segments": [
+            {
+              "text": "The results were promising",
+              "role": "CLAUSE",
+              "parts": [
+                "The results",
+                "were promising"
+              ]
+            },
+            {
+              "text": "however",
+              "role": "CONNECTOR",
+              "chunkId": "ch-however"
+            },
+            {
+              "text": "more research is needed",
+              "role": "CLAUSE",
+              "parts": [
+                "more research",
+                "is needed"
+              ],
+              "tag": "passive"
+            }
+          ],
+          "grammarTags": [
+            "discourse_marker",
+            "passive"
+          ],
+          "distractors": [
+            {
+              "text": "more research needs",
+              "tag": "passive",
+              "replaces": 2
+            },
+            {
+              "text": "so",
+              "tag": "discourse_marker",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "id": "c1-u3-r1",
+          "titleTr": "Bir girişimin hikâyesi",
+          "paragraphs": [
+            {
+              "en": "Not only did the company grow quickly, but it also won an award. Rarely do we see such talent in a new team.",
+              "tr": "Şirket sadece hızla büyümekle kalmadı, bir ödül de kazandı. Yeni bir ekipte böyle bir yeteneği nadiren görürüz."
+            },
+            {
+              "en": "Having said that, the plan was risky. Prices rose sharply and, as a result, sales fell for a year.",
+              "tr": "Bununla birlikte plan riskliydi. Fiyatlar hızla yükseldi ve sonuç olarak satışlar bir yıl boyunca düştü."
+            },
+            {
+              "en": "What the team needed was time. Nevertheless, given that the results were promising, the investors stayed.",
+              "tr": "Ekibin ihtiyacı olan şey zamandı. Yine de sonuçlar umut verici olduğu için yatırımcılar kaldı."
+            }
+          ],
+          "glosses": {
+            "company": "şirket",
+            "grow": "büyümek",
+            "quickly": "hızla",
+            "award": "ödül",
+            "won": "kazandı",
+            "new": "yeni",
+            "team": "ekip",
+            "needed": "ihtiyaç duydu",
+            "time": "zaman",
+            "investors": "yatırımcılar",
+            "stayed": "kaldı",
+            "year": "yıl"
+          }
+        }
+      ]
+    }
+  ]
+}

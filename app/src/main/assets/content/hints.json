@@ -1,0 +1,221 @@
+{
+  "hints": [
+    {
+      "tag": "word_order_svo",
+      "titleTr": "Sözcük sırası",
+      "nudgeTr": "Fiilin yerine bir daha bak.",
+      "ruleTr": "İngilizcede fiil özneden hemen sonra gelir: I drink coffee. Türkçedeki gibi sona gitmez (Ben kahve içerim).",
+      "onCorrectTr": "Özne + fiil + nesne: İngilizcenin temel sırası bu."
+    },
+    {
+      "tag": "word_order_time_place",
+      "titleTr": "Zaman ve yer ifadesi",
+      "nudgeTr": "Zaman veya yer ifadesinin yerine bak.",
+      "ruleTr": "Zaman ve yer ifadeleri İngilizcede genellikle cümlenin sonuna gelir (I read the news in the morning). Vurgu için başa da alınabilir, ama fiilin önüne girmez.",
+      "onCorrectTr": "Zaman ifadesi sonda: İngilizcede en doğal yer burası."
+    },
+    {
+      "tag": "be_verb",
+      "titleTr": "am / is / are",
+      "nudgeTr": "\"olmak\" fiiline bak.",
+      "ruleTr": "Türkçede \"-ım, -dır\" eki İngilizcede ayrı bir sözcüktür: I am (I'm), he/she is, we/you/they are.",
+      "onCorrectTr": "Türkçedeki \"-ım\" eki burada I'm oldu."
+    },
+    {
+      "tag": "article",
+      "titleTr": "a / an / the",
+      "nudgeTr": "Bir tanımlık (a, an, the) eksik ya da yanlış olabilir.",
+      "ruleTr": "Türkçede tanımlık yoktur ama İngilizcede tekil, sayılabilen isim yalnız kalmaz: I'm a teacher. Sesli harfle başlayan sözcükten önce an gelir.",
+      "onCorrectTr": "Meslek söylerken \"a\" gerekir: I'm a teacher."
+    },
+    {
+      "tag": "preposition",
+      "titleTr": "Edat",
+      "nudgeTr": "Edatın yerine ve seçimine bak.",
+      "ruleTr": "Türkçedeki -de, -e, -den ekleri İngilizcede ismin ÖNÜNE gelen ayrı sözcüklerdir: evde → at home, Ankara'da → in Ankara, otobüsle → by bus.",
+      "onCorrectTr": "Türkçedeki ek, İngilizcede ismin önündeki edat oldu."
+    },
+    {
+      "tag": "there_is_have",
+      "titleTr": "var: There is / I have",
+      "nudgeTr": "\"var\" anlamını hangi yapı veriyor, bir daha düşün.",
+      "ruleTr": "Bir yerde bir şeyin varlığı için There is / There are; birine ait olan için I have / she has kullanılır. \"Arabam var\" = I have a car.",
+      "onCorrectTr": "Sahiplik için have, bir yerde bulunma için there is."
+    },
+    {
+      "tag": "third_person_s",
+      "titleTr": "he / she / it + -s",
+      "nudgeTr": "Özneye bak: o (he/she/it) mi?",
+      "ruleTr": "Geniş zamanda yalnızca he, she, it ile fiile -s eklenir: she works, he has. I/you/we/they ile ek yoktur.",
+      "onCorrectTr": "Özne tekil üçüncü kişi, fiil -s aldı."
+    },
+    {
+      "tag": "modal_would",
+      "titleTr": "Kibar istek: I'd like",
+      "nudgeTr": "İsteği kibarca söyleyen öbeğe bak.",
+      "ruleTr": "I'd like (= I would like) \"istiyorum\" demenin kibar yoludur. I like ise \"severim\" anlamına gelir.",
+      "onCorrectTr": "I'd like: kibarca istemenin kalıbı."
+    },
+    {
+      "tag": "modal_can",
+      "titleTr": "Rica: Can I / Could you",
+      "nudgeTr": "Soru kalıbının sırasına bak.",
+      "ruleTr": "Rica ederken yardımcı fiil başa gelir: Can I have...? Could you...? Türkçedeki \"-ebilir miyim\" eki İngilizcede cümlenin başına taşınır.",
+      "onCorrectTr": "Rica kalıbı: yardımcı fiil başta."
+    },
+    {
+      "tag": "adverb_frequency",
+      "titleTr": "Sıklık zarfı",
+      "nudgeTr": "usually sözcüğünün yerine bak.",
+      "ruleTr": "usually, always, never gibi sıklık zarfları özneyle fiilin ARASINA girer: I usually go to work...",
+      "onCorrectTr": "Sıklık zarfı özne ile fiil arasında."
+    },
+    {
+      "tag": "aux_do",
+      "titleTr": "Soru: Do / Does / Did",
+      "nudgeTr": "Soru nasıl başlıyor, bir daha bak.",
+      "ruleTr": "Türkçede soru \"mi\" ekiyle yapılır; İngilizcede çoğu fiilde soru için başa do/does/did gelir: Do you drink tea?",
+      "onCorrectTr": "Soru, başa gelen do/did ile kuruldu."
+    },
+    {
+      "tag": "past_simple",
+      "titleTr": "Geçmiş zaman",
+      "nudgeTr": "Fiilin zamanına bak.",
+      "ruleTr": "Geçmişte bitmiş olaylar için fiilin geçmiş hali kullanılır: go → went, visit → visited, have → had.",
+      "onCorrectTr": "Bitmiş bir olay: fiil geçmiş halde."
+    },
+    {
+      "tag": "going_to",
+      "titleTr": "Plan: be going to",
+      "nudgeTr": "Planı anlatan öbeğin tamamına bak.",
+      "ruleTr": "Önceden verilmiş kararlar için am/is/are + going to + fiil kullanılır: I'm going to call... Ne \"am\" ne de \"to\" atlanabilir.",
+      "onCorrectTr": "Önceden verilmiş karar: going to."
+    },
+    {
+      "tag": "present_continuous_future",
+      "titleTr": "Ayarlanmış plan",
+      "nudgeTr": "Fiil öbeğinin biçimine bak.",
+      "ruleTr": "Saati, yeri belli randevular için şimdiki zaman kullanılır: I'm meeting my friends on Saturday. Türkçedeki \"buluşuyorum\" ile aynı mantık.",
+      "onCorrectTr": "Belli bir randevu: şimdiki zaman."
+    },
+    {
+      "tag": "connector_and_but",
+      "titleTr": "and / but",
+      "nudgeTr": "İki cümle arasındaki bağlaca bak.",
+      "ruleTr": "and iki fikri ekler, but karşıtlık kurar. Bağlaç iki cümlenin ARASINA gelir.",
+      "onCorrectTr": "Karşıtlık var, bu yüzden but."
+    },
+    {
+      "tag": "connector_so",
+      "titleTr": "so: sonuç",
+      "nudgeTr": "Neden mi sonuç mu, bağlaca bak.",
+      "ruleTr": "so SONUCU getirir ve sonuçtan önce gelir: I was tired, so I went to bed. Nedeni getiren because'tır.",
+      "onCorrectTr": "so, sonucu getiren bağlaç."
+    },
+    {
+      "tag": "connector_because",
+      "titleTr": "because: neden",
+      "nudgeTr": "because'ın ardından ne geliyor, bak.",
+      "ruleTr": "Türkçede neden önce gelir (Hasta olduğum için...). İngilizcede because NEDENİN önüne gelir ve çoğunlukla ana cümleden sonra durur: I stayed at home because I was ill.",
+      "onCorrectTr": "because, nedenin tam önünde."
+    },
+    {
+      "tag": "present_perfect",
+      "titleTr": "have / has + 3. hal",
+      "nudgeTr": "Fiil öbeğinin biçimine bak.",
+      "ruleTr": "Zamanı belirtilmeyen deneyimler ve hâlâ süren durumlar için have/has + fiilin 3. hali kullanılır: I've never eaten..., She has lived... since 2015.",
+      "onCorrectTr": "Deneyim anlatırken have + 3. hal."
+    },
+    {
+      "tag": "time_clause_tense",
+      "titleTr": "Zaman yan tümcesi",
+      "nudgeTr": "Yan tümcenin zamanına ve bağlacın yerine bak.",
+      "ruleTr": "when, as soon as, before ile başlayan yan tümcede gelecek anlamı olsa bile will kullanılmaz: when I get home (\"vardığımda\"). Türkçedeki \"-ince\" ekinin yerini bağlaç alır ve yan tümcenin başına gelir.",
+      "onCorrectTr": "Zaman yan tümcesinde will yok: when I get home."
+    },
+    {
+      "tag": "conditional_1",
+      "titleTr": "Koşul: If + geniş zaman",
+      "nudgeTr": "if'li bölümün fiiline bak.",
+      "ruleTr": "Gerçek koşullarda if'li yan tümcede şimdiki/geniş zaman, ana cümlede will kullanılır: If it rains, we will stay. Türkçedeki \"-rsa\" eki if olarak başa gelir.",
+      "onCorrectTr": "If'li bölümde will yok, ana cümlede var."
+    },
+    {
+      "tag": "relative_clause",
+      "titleTr": "İlgi yan tümcesi",
+      "nudgeTr": "Tanımlayan bölümün isimden önce mi sonra mı geldiğine bak.",
+      "ruleTr": "Türkçede tanımlayan kısım ismin önündedir (Berlin'de yaşayan arkadaş). İngilizcede ismin SONRASINA gelir ve who (kişi), which (şey), where (yer) ile başlar: a friend who lives in Berlin.",
+      "onCorrectTr": "Tanımlayan bölüm ismin arkasında."
+    },
+    {
+      "tag": "connector_contrast",
+      "titleTr": "Zıtlık bağlacı",
+      "nudgeTr": "İki fikir arasındaki ilişkiye bak.",
+      "ruleTr": "although / even though bir CÜMLEYİ bağlar ve \"-e rağmen\" anlamı verir; whereas iki şeyi karşılaştırır. Sebep bildiren because burada anlamı bozar.",
+      "onCorrectTr": "although'dan sonra tam bir cümle geldi."
+    },
+    {
+      "tag": "despite_noun",
+      "titleTr": "despite + isim",
+      "nudgeTr": "despite'tan sonra ne geldiğine bak.",
+      "ruleTr": "despite'tan sonra cümle değil isim ya da -ing gelir: despite the rain, despite feeling ill. \"despite of\" yanlıştır; tam cümle için although kullanılır.",
+      "onCorrectTr": "despite'ın ardında isim veya -ing var."
+    },
+    {
+      "tag": "conditional_2",
+      "titleTr": "Gerçek dışı koşul",
+      "nudgeTr": "if'li bölümün zamanına bak.",
+      "ruleTr": "Şimdiki zamanda gerçek olmayan durumlar için if + geçmiş zaman, ana cümlede would kullanılır: If I were you, I would apologise. Türkçedeki \"-saydım / -sam\" bunun karşılığıdır.",
+      "onCorrectTr": "Gerçek dışı durum: if + geçmiş, ana cümlede would."
+    },
+    {
+      "tag": "conditional_3",
+      "titleTr": "Geçmişe dair varsayım",
+      "nudgeTr": "had ve would have'ın yerine bak.",
+      "ruleTr": "Geçmişte olmayan bir olay için if + had + 3. hal, ana cümlede would have + 3. hal: If we had left earlier, we would have caught the train.",
+      "onCorrectTr": "Geçmiş varsayım: had + 3. hal ve would have."
+    },
+    {
+      "tag": "wish",
+      "titleTr": "I wish: keşke",
+      "nudgeTr": "wish'ten sonraki fiilin zamanına bak.",
+      "ruleTr": "Keşke derken zaman bir adım geriye kayar: şimdiki dilek için geçmiş (I wish I spoke French), geçmişe dair pişmanlık için had + 3. hal (I wish I had studied).",
+      "onCorrectTr": "wish ile zaman bir adım geride."
+    },
+    {
+      "tag": "passive",
+      "titleTr": "Edilgen yapı",
+      "nudgeTr": "be + 3. hal öbeğine bak.",
+      "ruleTr": "Eylemi yapan önemli değilse be + fiilin 3. hali kullanılır: was built, is being repaired, has been cancelled. Türkçedeki \"-ıl, -ın\" ekinin karşılığıdır.",
+      "onCorrectTr": "Edilgen: be + 3. hal."
+    },
+    {
+      "tag": "participle_clause",
+      "titleTr": "Ortaç yapısı",
+      "nudgeTr": "-ing ile başlayan öbeğe bak.",
+      "ruleTr": "-ing ile başlayan öbek yan tümceyi kısaltır: Having finished her work = After she had finished her work. İsimden sonra gelirse \"-an\" anlamı verir: the woman sitting next to me.",
+      "onCorrectTr": "-ing öbeği yan tümceyi kısalttı."
+    },
+    {
+      "tag": "inversion",
+      "titleTr": "Devrik yapı",
+      "nudgeTr": "Olumsuz zarftan sonraki sıraya bak.",
+      "ruleTr": "Never, Rarely, Hardly, Not only, Only then gibi ifadeler başa gelince soru sırası kullanılır: Never have I seen..., Rarely do we see...",
+      "onCorrectTr": "Olumsuz zarf başta, ardından soru sırası."
+    },
+    {
+      "tag": "cleft",
+      "titleTr": "Vurgu cümlesi",
+      "nudgeTr": "Vurgulanan bilginin nerede durduğuna bak.",
+      "ruleTr": "Bir bilgiyi öne çıkarmak için It was ... who/that ya da What I need is ... kalıpları kullanılır. Türkçedeki \"...olan ...ydı\" yapısına benzer.",
+      "onCorrectTr": "Vurgu kalıbı: vurgulanan bilgi öne alındı."
+    },
+    {
+      "tag": "discourse_marker",
+      "titleTr": "Söylem belirteci",
+      "nudgeTr": "İki cümle arasındaki mantığa bak: karşıtlık mı, sonuç mu?",
+      "ruleTr": "Nevertheless ve however karşıtlık, As a result sonuç bildirir, Given that ise gerekçe sunar. Belirteç ikinci cümlenin başında durur ve ardından virgül gelir.",
+      "onCorrectTr": "Belirteç ikinci cümlenin başında, mantığı gösteriyor."
+    }
+  ]
+}

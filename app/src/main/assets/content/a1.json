@@ -1,0 +1,1051 @@
+{
+  "level": "A1",
+  "units": [
+    {
+      "id": "a1-u1",
+      "order": 1,
+      "titleTr": "Tanışma",
+      "descriptionTr": "Kendini tanıtmak: ad, memleket, meslek",
+      "chunks": [
+        {
+          "id": "ch-my-name-is",
+          "en": "My name is",
+          "tr": "Benim adım",
+          "kind": "FRAME",
+          "grammarTags": [
+            "be_verb"
+          ],
+          "examples": [
+            "My name is Elif.",
+            "My name is Can."
+          ]
+        },
+        {
+          "id": "ch-im-from",
+          "en": "I'm from",
+          "tr": "...lıyım / ...den geliyorum",
+          "kind": "FRAME",
+          "grammarTags": [
+            "be_verb"
+          ],
+          "examples": [
+            "I'm from Izmir.",
+            "I'm from Turkey."
+          ]
+        },
+        {
+          "id": "ch-nice-to-meet-you",
+          "en": "Nice to meet you",
+          "tr": "Tanıştığımıza memnun oldum",
+          "kind": "FIXED",
+          "grammarTags": [],
+          "examples": [
+            "Nice to meet you, Elif."
+          ]
+        },
+        {
+          "id": "ch-im-a",
+          "en": "I'm a",
+          "tr": "Ben bir ...ım (meslek)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "article"
+          ],
+          "examples": [
+            "I'm a student.",
+            "I'm a nurse."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a1-u1-s01",
+          "tr": "Merhaba, benim adım Ali.",
+          "en": "Hi, my name is Ali.",
+          "segments": [
+            {
+              "text": "Hi",
+              "role": "OTHER"
+            },
+            {
+              "text": "my name is",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-my-name-is",
+              "parts": [
+                "my name",
+                "is"
+              ]
+            },
+            {
+              "text": "Ali",
+              "role": "COMPLEMENT",
+              "keepCase": true
+            }
+          ],
+          "grammarTags": [
+            "be_verb"
+          ],
+          "distractors": [
+            {
+              "text": "am",
+              "tag": "be_verb",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-s02",
+          "tr": "İzmirliyim.",
+          "en": "I'm from Izmir.",
+          "segments": [
+            {
+              "text": "I'm from",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-im-from",
+              "parts": [
+                "I'm",
+                "from"
+              ]
+            },
+            {
+              "text": "Izmir",
+              "role": "COMPLEMENT",
+              "keepCase": true
+            }
+          ],
+          "grammarTags": [
+            "be_verb"
+          ],
+          "distractors": [
+            {
+              "text": "I from",
+              "tag": "be_verb",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-s03",
+          "tr": "Tanıştığımıza memnun oldum, Ali.",
+          "en": "Nice to meet you, Ali.",
+          "segments": [
+            {
+              "text": "Nice to meet you",
+              "role": "OTHER",
+              "chunkId": "ch-nice-to-meet-you",
+              "parts": [
+                "Nice",
+                "to meet you"
+              ]
+            },
+            {
+              "text": "Ali",
+              "role": "OTHER",
+              "keepCase": true
+            }
+          ],
+          "grammarTags": []
+        },
+        {
+          "id": "a1-u1-s04",
+          "tr": "Ben öğretmenim.",
+          "en": "I'm a teacher.",
+          "segments": [
+            {
+              "text": "I'm a",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-im-a",
+              "parts": [
+                "I'm",
+                "a"
+              ],
+              "tag": "article"
+            },
+            {
+              "text": "teacher",
+              "role": "COMPLEMENT"
+            }
+          ],
+          "grammarTags": [
+            "article"
+          ],
+          "distractors": [
+            {
+              "text": "I'm an",
+              "tag": "article",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u1-s05",
+          "tr": "Kız kardeşim Ankara'da doktor.",
+          "en": "My sister is a doctor in Ankara.",
+          "segments": [
+            {
+              "text": "My sister",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "is a",
+              "role": "VERB_FRAME",
+              "parts": [
+                "is",
+                "a"
+              ],
+              "tag": "article"
+            },
+            {
+              "text": "doctor",
+              "role": "COMPLEMENT"
+            },
+            {
+              "text": "in Ankara",
+              "role": "PLACE",
+              "parts": [
+                "in",
+                "Ankara"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "article",
+            "preposition"
+          ],
+          "distractors": [
+            {
+              "text": "Ankara in",
+              "tag": "preposition",
+              "replaces": 3
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "a1-u2",
+      "order": 2,
+      "titleTr": "Sahip olmak ve var-yok",
+      "descriptionTr": "\"var\" demenin iki yolu: I have ve There is",
+      "chunks": [
+        {
+          "id": "ch-i-have",
+          "en": "I have",
+          "tr": "...ım var",
+          "kind": "FRAME",
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "examples": [
+            "I have a car.",
+            "I have two sisters."
+          ]
+        },
+        {
+          "id": "ch-there-is",
+          "en": "There is",
+          "tr": "(bir şey) var",
+          "kind": "FRAME",
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "examples": [
+            "There is a cat in the garden."
+          ]
+        },
+        {
+          "id": "ch-there-are",
+          "en": "There are",
+          "tr": "(birden çok şey) var",
+          "kind": "FRAME",
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "examples": [
+            "There are two banks here."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a1-u2-s01",
+          "tr": "Bir erkek kardeşim var.",
+          "en": "I have a brother.",
+          "segments": [
+            {
+              "text": "I have",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-i-have",
+              "parts": [
+                "I",
+                "have"
+              ]
+            },
+            {
+              "text": "a brother",
+              "role": "OBJECT",
+              "parts": [
+                "a",
+                "brother"
+              ],
+              "tag": "article"
+            }
+          ],
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "distractors": [
+            {
+              "text": "there is",
+              "tag": "there_is_have",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-s02",
+          "tr": "İki kedim ve bir köpeğim var.",
+          "en": "I have two cats and a dog.",
+          "segments": [
+            {
+              "text": "I have",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-i-have",
+              "parts": [
+                "I",
+                "have"
+              ]
+            },
+            {
+              "text": "two cats",
+              "role": "OBJECT",
+              "parts": [
+                "two",
+                "cats"
+              ]
+            },
+            {
+              "text": "and a dog",
+              "role": "OBJECT",
+              "parts": [
+                "and",
+                "a dog"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "distractors": [
+            {
+              "text": "two cat",
+              "tag": "there_is_have",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-s03",
+          "tr": "Bahçede bir kedi var.",
+          "en": "There is a cat in the garden.",
+          "segments": [
+            {
+              "text": "There is",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-there-is",
+              "parts": [
+                "There",
+                "is"
+              ]
+            },
+            {
+              "text": "a cat",
+              "role": "OBJECT",
+              "parts": [
+                "a",
+                "cat"
+              ]
+            },
+            {
+              "text": "in the garden",
+              "role": "PLACE",
+              "parts": [
+                "in",
+                "the garden"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "distractors": [
+            {
+              "text": "there have",
+              "tag": "there_is_have",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-s04",
+          "tr": "Evimin yakınında iki banka var.",
+          "en": "There are two banks near my house.",
+          "segments": [
+            {
+              "text": "There are",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-there-are",
+              "parts": [
+                "There",
+                "are"
+              ]
+            },
+            {
+              "text": "two banks",
+              "role": "OBJECT",
+              "parts": [
+                "two",
+                "banks"
+              ]
+            },
+            {
+              "text": "near my house",
+              "role": "PLACE",
+              "parts": [
+                "near",
+                "my house"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "there_is_have"
+          ],
+          "distractors": [
+            {
+              "text": "there is",
+              "tag": "there_is_have",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u2-s05",
+          "tr": "Erkek kardeşimin yeni bir arabası var.",
+          "en": "My brother has a new car.",
+          "segments": [
+            {
+              "text": "My brother",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "has",
+              "role": "VERB_FRAME",
+              "tag": "third_person_s"
+            },
+            {
+              "text": "a new car",
+              "role": "OBJECT",
+              "parts": [
+                "a new",
+                "car"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "third_person_s"
+          ],
+          "distractors": [
+            {
+              "text": "have",
+              "tag": "third_person_s",
+              "replaces": 1
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "a1-u3",
+      "order": 3,
+      "titleTr": "İstekler",
+      "descriptionTr": "Kafede, dükkânda kibarca bir şey istemek",
+      "chunks": [
+        {
+          "id": "ch-id-like",
+          "en": "I'd like",
+          "tr": "...istiyorum (kibar)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "modal_would"
+          ],
+          "examples": [
+            "I'd like a coffee.",
+            "I'd like to go home."
+          ]
+        },
+        {
+          "id": "ch-a-cup-of",
+          "en": "a cup of",
+          "tr": "bir fincan",
+          "kind": "COLLOCATION",
+          "grammarTags": [],
+          "examples": [
+            "a cup of tea",
+            "a cup of coffee"
+          ]
+        },
+        {
+          "id": "ch-can-i-have",
+          "en": "Can I have",
+          "tr": "...alabilir miyim?",
+          "kind": "FRAME",
+          "grammarTags": [
+            "modal_can"
+          ],
+          "examples": [
+            "Can I have the bill, please?"
+          ]
+        },
+        {
+          "id": "ch-could-you",
+          "en": "Could you",
+          "tr": "...bilir misiniz? (rica)",
+          "kind": "FRAME",
+          "grammarTags": [
+            "modal_can"
+          ],
+          "examples": [
+            "Could you open the window?"
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a1-u3-s01",
+          "tr": "Bir kahve istiyorum.",
+          "en": "I'd like a coffee.",
+          "segments": [
+            {
+              "text": "I'd like",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-id-like",
+              "parts": [
+                "I'd",
+                "like"
+              ],
+              "tag": "modal_would"
+            },
+            {
+              "text": "a coffee",
+              "role": "OBJECT",
+              "parts": [
+                "a",
+                "coffee"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "modal_would"
+          ],
+          "distractors": [
+            {
+              "text": "I like",
+              "tag": "modal_would",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-s02",
+          "tr": "Bir fincan çay istiyorum.",
+          "en": "I'd like a cup of tea.",
+          "segments": [
+            {
+              "text": "I'd like",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-id-like",
+              "parts": [
+                "I'd",
+                "like"
+              ],
+              "tag": "modal_would"
+            },
+            {
+              "text": "a cup of tea",
+              "role": "OBJECT",
+              "chunkId": "ch-a-cup-of",
+              "parts": [
+                "a cup of",
+                "tea"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "modal_would"
+          ],
+          "distractors": [
+            {
+              "text": "I like",
+              "tag": "modal_would",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-s03",
+          "tr": "Menüyü alabilir miyim, lütfen?",
+          "en": "Can I have the menu, please?",
+          "segments": [
+            {
+              "text": "Can I have",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-can-i-have",
+              "parts": [
+                "Can I",
+                "have"
+              ]
+            },
+            {
+              "text": "the menu",
+              "role": "OBJECT",
+              "parts": [
+                "the",
+                "menu"
+              ]
+            },
+            {
+              "text": "please",
+              "role": "OTHER"
+            }
+          ],
+          "grammarTags": [
+            "modal_can"
+          ],
+          "distractors": [
+            {
+              "text": "I can have",
+              "tag": "modal_can",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-s04",
+          "tr": "Bana yardım edebilir misiniz, lütfen?",
+          "en": "Could you help me, please?",
+          "segments": [
+            {
+              "text": "Could you",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-could-you",
+              "parts": [
+                "Could",
+                "you"
+              ]
+            },
+            {
+              "text": "help me",
+              "role": "OBJECT",
+              "parts": [
+                "help",
+                "me"
+              ]
+            },
+            {
+              "text": "please",
+              "role": "OTHER"
+            }
+          ],
+          "grammarTags": [
+            "modal_can"
+          ],
+          "distractors": [
+            {
+              "text": "do you",
+              "tag": "aux_do",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u3-s05",
+          "tr": "Kartla ödemek istiyorum.",
+          "en": "I'd like to pay by card.",
+          "segments": [
+            {
+              "text": "I'd like",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-id-like",
+              "parts": [
+                "I'd",
+                "like"
+              ],
+              "tag": "modal_would"
+            },
+            {
+              "text": "to pay",
+              "role": "VERB_FRAME",
+              "parts": [
+                "to",
+                "pay"
+              ]
+            },
+            {
+              "text": "by card",
+              "role": "OTHER",
+              "parts": [
+                "by",
+                "card"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "modal_would",
+            "preposition"
+          ],
+          "distractors": [
+            {
+              "text": "with card",
+              "tag": "preposition",
+              "replaces": 2
+            }
+          ]
+        }
+      ],
+      "readings": []
+    },
+    {
+      "id": "a1-u4",
+      "order": 4,
+      "titleTr": "Günlük rutin",
+      "descriptionTr": "Her gün yaptıklarını ve ne zaman yaptığını anlatmak",
+      "chunks": [
+        {
+          "id": "ch-every-day",
+          "en": "every day",
+          "tr": "her gün",
+          "kind": "TIME",
+          "grammarTags": [
+            "word_order_time_place"
+          ],
+          "examples": [
+            "I walk every day."
+          ]
+        },
+        {
+          "id": "ch-in-the-morning",
+          "en": "in the morning",
+          "tr": "sabahları / sabah",
+          "kind": "TIME",
+          "grammarTags": [
+            "preposition"
+          ],
+          "examples": [
+            "I run in the morning."
+          ]
+        },
+        {
+          "id": "ch-go-to-work",
+          "en": "go to work",
+          "tr": "işe gitmek",
+          "kind": "COLLOCATION",
+          "grammarTags": [],
+          "examples": [
+            "I go to work at nine."
+          ]
+        },
+        {
+          "id": "ch-usually",
+          "en": "usually",
+          "tr": "genellikle",
+          "kind": "TIME",
+          "grammarTags": [
+            "adverb_frequency"
+          ],
+          "examples": [
+            "I usually walk to school."
+          ]
+        }
+      ],
+      "sentences": [
+        {
+          "id": "a1-u4-s01",
+          "tr": "Her gün kahve içerim.",
+          "en": "I drink coffee every day.",
+          "segments": [
+            {
+              "text": "I drink",
+              "role": "VERB_FRAME",
+              "parts": [
+                "I",
+                "drink"
+              ]
+            },
+            {
+              "text": "coffee",
+              "role": "OBJECT"
+            },
+            {
+              "text": "every day",
+              "role": "TIME",
+              "chunkId": "ch-every-day"
+            }
+          ],
+          "grammarTags": [
+            "word_order_svo"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "I drinks",
+              "tag": "third_person_s",
+              "replaces": 0
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-s02",
+          "tr": "Sabahları haberleri okurum.",
+          "en": "I read the news in the morning.",
+          "segments": [
+            {
+              "text": "I read",
+              "role": "VERB_FRAME",
+              "parts": [
+                "I",
+                "read"
+              ]
+            },
+            {
+              "text": "the news",
+              "role": "OBJECT",
+              "parts": [
+                "the",
+                "news"
+              ]
+            },
+            {
+              "text": "in the morning",
+              "role": "TIME",
+              "chunkId": "ch-in-the-morning",
+              "parts": [
+                "in",
+                "the morning"
+              ]
+            }
+          ],
+          "grammarTags": [
+            "word_order_time_place"
+          ],
+          "alternatives": [
+            [
+              2,
+              0,
+              1
+            ]
+          ],
+          "distractors": [
+            {
+              "text": "the morning in",
+              "tag": "preposition",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-s03",
+          "tr": "İşe otobüsle giderim.",
+          "en": "I go to work by bus.",
+          "segments": [
+            {
+              "text": "I",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "go to work",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-go-to-work",
+              "parts": [
+                "go",
+                "to work"
+              ]
+            },
+            {
+              "text": "by bus",
+              "role": "OTHER",
+              "parts": [
+                "by",
+                "bus"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "preposition"
+          ],
+          "distractors": [
+            {
+              "text": "with bus",
+              "tag": "preposition",
+              "replaces": 2
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-s04",
+          "tr": "Genellikle sekizde işe giderim.",
+          "en": "I usually go to work at eight.",
+          "segments": [
+            {
+              "text": "I",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "usually",
+              "role": "OTHER",
+              "chunkId": "ch-usually",
+              "tag": "adverb_frequency"
+            },
+            {
+              "text": "go to work",
+              "role": "VERB_FRAME",
+              "chunkId": "ch-go-to-work",
+              "parts": [
+                "go",
+                "to work"
+              ]
+            },
+            {
+              "text": "at eight",
+              "role": "TIME",
+              "parts": [
+                "at",
+                "eight"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "adverb_frequency"
+          ],
+          "distractors": [
+            {
+              "text": "in eight",
+              "tag": "preposition",
+              "replaces": 3
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-s05",
+          "tr": "Babam bir hastanede çalışır.",
+          "en": "My father works in a hospital.",
+          "segments": [
+            {
+              "text": "My father",
+              "role": "SUBJECT"
+            },
+            {
+              "text": "works",
+              "role": "VERB_FRAME",
+              "tag": "third_person_s"
+            },
+            {
+              "text": "in a hospital",
+              "role": "PLACE",
+              "parts": [
+                "in",
+                "a hospital"
+              ],
+              "tag": "preposition"
+            }
+          ],
+          "grammarTags": [
+            "third_person_s"
+          ],
+          "distractors": [
+            {
+              "text": "work",
+              "tag": "third_person_s",
+              "replaces": 1
+            }
+          ]
+        },
+        {
+          "id": "a1-u4-s06",
+          "tr": "Her gün çay içer misin?",
+          "en": "Do you drink tea every day?",
+          "segments": [
+            {
+              "text": "Do you",
+              "role": "VERB_FRAME",
+              "parts": [
+                "Do",
+                "you"
+              ],
+              "tag": "aux_do"
+            },
+            {
+              "text": "drink tea",
+              "role": "OBJECT",
+              "parts": [
+                "drink",
+                "tea"
+              ]
+            },
+            {
+              "text": "every day",
+              "role": "TIME",
+              "chunkId": "ch-every-day"
+            }
+          ],
+          "grammarTags": [
+            "aux_do"
+          ],
+          "distractors": [
+            {
+              "text": "are you",
+              "tag": "aux_do",
+              "replaces": 0
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "id": "a1-u4-r1",
+          "titleTr": "Ali'nin bir günü",
+          "paragraphs": [
+            {
+              "en": "My name is Ali. I'm from Izmir. I'm a teacher.",
+              "tr": "Benim adım Ali. İzmirliyim. Öğretmenim."
+            },
+            {
+              "en": "I usually go to work by bus. I drink coffee every day. In the morning I read the news.",
+              "tr": "Genellikle işe otobüsle giderim. Her gün kahve içerim. Sabahları haberleri okurum."
+            },
+            {
+              "en": "My sister is a doctor in Ankara. She works in a hospital. I have a brother. He has a new car.",
+              "tr": "Kız kardeşim Ankara'da doktor. Bir hastanede çalışır. Bir erkek kardeşim var. Onun yeni bir arabası var."
+            }
+          ],
+          "glosses": {
+            "works": "çalışır"
+          }
+        }
+      ]
+    }
+  ]
+}
